@@ -5,7 +5,8 @@ const ngoModel = mongoose.Schema(
     fullName: {
       type: String,
       trim: true,
-      lowercase: true
+      lowercase: true,
+      required: [true, "NGO name is a required field"]
     },
     org_name: {
       type: String,
@@ -15,10 +16,12 @@ const ngoModel = mongoose.Schema(
     email: {
       type: String,
       trim: true,
-      lowercase: true
+      lowercase: true,
+      required: [true, "email is a required field"]
     },
     phone: {
-      type: Number
+      type: Number,
+      required: [true, "phone number is a required field"]
     },
     website: {
       type: String,
@@ -26,7 +29,8 @@ const ngoModel = mongoose.Schema(
       lowercase: true
     },
     password: {
-      type: String
+      type: String,
+      required: [true, "password is a required field"]
     },
     address: {
       type: String,
