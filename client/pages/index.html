@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CareMedico</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Sign Up</legend>
+
+        <form action="api/ngo/new" method="post">
+            <table>
+                <tr>
+                    <td><label for="fullName">Name:</label></td>
+                    <td><input type="text" name="fullName"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-Mail:</label></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone No.:</label></td>
+                    <td><input type="number" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="SignUp"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Login</legend>
+
+        <form action="api/ngo/login" method="post">
+            <table>
+                <tr>
+                    <td><label for="fullName">Name:</label></td>
+                    <td><input type="text" name="fullName"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="SignIn">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </fieldset>
+</body>
+
+</html>
