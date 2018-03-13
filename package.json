@@ -1,0 +1,26 @@
+{
+  "name": "OAuthProject",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.12.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.5.3",
+    "passport": "^0.2.2",
+    "passport-facebook": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "save": "^2.3.2"
+  }
+}
